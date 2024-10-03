@@ -44,4 +44,4 @@ def test_posts(db: Session = Depends(get_db)):
 
 @app.get('/')
 def root():
-    return {"message": "hello wordl"}
+    return {"message": "aleksa je celi world!!!"}
